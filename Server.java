@@ -18,7 +18,7 @@ class Server {
 			BufferedReader b = new BufferedReader(new InputStreamReader(System.in));
             
             System.out.println("Your Message: ");
-			ps.print(b.readLine());
+			p.print(b.readLine());
 			s.close();
 			serversocket.close();
 		}
